@@ -20,7 +20,23 @@ div.hero > h2 {
     margin-bottom: 30px;;
 }
 
+.categories-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.meal-idea {
+    width: 300px;
+    height: auto;
+
+}
+
+.med-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
 
 .recipe {
     width: 200px;
@@ -28,6 +44,12 @@ div.hero > h2 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+.healthy-recipes-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .small-image {
