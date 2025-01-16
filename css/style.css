@@ -9,8 +9,23 @@ html {
     font-family: sans-serif;
 }
 
+body {
+    background-image: url(../images/repeated-square.webp);
+    background-repeat: repeat;
+}
+
 header, footer {
     background-color: #f1a536;
+}
+
+.logo {
+    height: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;;
 }
 
 figcaption {
