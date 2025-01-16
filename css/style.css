@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+header {
+    background-color: #f1a536;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.hero > h2 {
+    background-color: white;
+    position: absolute;
+}
+
+.categories-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.healthy-recipes {
+    background-color: #dadfea;
+}
