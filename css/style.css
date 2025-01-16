@@ -5,10 +5,16 @@
     border: 1px solid black;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+html {
+    font-family: sans-serif;
+}
+
+header, footer {
+    background-color: #f1a536;
+}
+
+figcaption {
+    text-align: center;
 }
 
 div.hero > h2 {
@@ -17,19 +23,18 @@ div.hero > h2 {
 }
 
 .categories, .healthy-recipes, .where-to-eat {
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
 }
 
-.categories-images {
+.categories-images, .healthy-recipes-images, .where-to-images, header, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.meal-idea {
+.meal-idea, .where {
     width: 300px;
     height: auto;
-
 }
 
 .med-image {
@@ -46,12 +51,6 @@ div.hero > h2 {
     align-items: flex-end;
 }
 
-.healthy-recipes-images {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .small-image {
     width: 200px;
     height: 200px;
@@ -62,6 +61,5 @@ div.hero > h2 {
 .recipe-caption {
     width: 100%;
     background-color: white;
-    text-align: center;
     z-index: 10;
 }
