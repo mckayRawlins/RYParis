@@ -5,10 +5,29 @@
     border: 1px solid black;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.hero > h2 {
+    background-color: white;
+    position: absolute;
+}
+
+.categories, .healthy-recipes, .where-to-eat {
+    margin-bottom: 30px;;
+}
+
+
+
 .recipe {
     width: 200px;
     height: 200px;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .small-image {
@@ -19,6 +38,8 @@
 }
 
 .recipe-caption {
+    width: 100%;
     background-color: white;
-    z-index: 100;
+    text-align: center;
+    z-index: 10;
 }
