@@ -28,11 +28,11 @@ a {
     margin-left: 2rem;;
 }
 
-main {
+/*main {
     height: auto;
     width: 85%;
     margin: 0 auto;
-}
+}*/
 
 figcaption {
     text-align: center;
@@ -40,6 +40,7 @@ figcaption {
 
 div.hero > h2 {
     background-color: white;
+    width: fit-content;
     position: absolute;
 }
 
