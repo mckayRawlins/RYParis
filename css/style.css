@@ -5,6 +5,14 @@
     border: 1px solid black;
 }
 
+img {
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+}
+
 header {
     background-color: #f1a536;
     display: flex;
@@ -17,12 +25,63 @@ div.hero > h2 {
     position: absolute;
 }
 
+.categories {
+    margin-bottom: 30px;
+}
+
 .categories-images {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.meal-idea {
+    width: 300px;
+    height: auto;
+}
+
+.med-image {
+    width: 300px;
+    height: 200px;
+}
+
 .healthy-recipes {
+    height: auto;
+    margin-bottom: 30px;
     background-color: #dadfea;
 }
+
+.healthy-recipes-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe {
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.recipe-caption {
+    background-color: white;;
+}
+
+#fajita-peppers {
+    background-image: url(../images/fajita-peppers.jpeg);
+}
+#breakfast-muffins {
+    background-image: url(../images/muffins.jpeg);
+}
+#eggplant {
+    background-image: url(../images/eggplant-parmesan.jpg);
+}
+#teriyaki-chicken {
+    background-image: url(../images/teriyaki-chiken-thighs.png);
+}
+
+/*.small-image {
+    height: 200px;
+    width: 200px;
+}*/
