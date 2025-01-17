@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 html {
@@ -18,12 +18,23 @@ header, footer {
     background-color: #f1a536;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 .logo {
     height: 5rem;
 }
 
-.checked {
+.fa-star {
     color: #a63223;
+}
+.fa-print {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
 }
 
 a {
@@ -46,10 +57,14 @@ div.hero > h2 {
     background-color: white;
     width: fit-content;
     position: absolute;
+    margin-bottom: 25px;
 }
 
 .hero {
     height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .hero-image {
@@ -58,17 +73,11 @@ div.hero > h2 {
     object-fit: cover;
 }
 
-.categories-images, .healthy-recipes-images, .where-to-images, .prep-info, header, footer{
+.categories-images, .healthy-recipes-images, .where-to-images, header, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.burger-recipe {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
 }
 
 
@@ -103,7 +112,7 @@ section h1, section p {
     height: auto;
 }
 
-.healthy-recipes {
+.healthy-recipes, .prep {
     background-color: #dadfea;
 }
 
@@ -127,8 +136,58 @@ section h1, section p {
     border: 6.5px solid #dadfea;
 }
 
-.directions, .ingredients {
+.prep {
+    padding: 1.3rem 5rem;
+}
+
+.prep-info {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 6rem;;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: .9rem;;
+}
+
+button {
+    color: white;
+    margin-right: 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #a63223;
+}
+
+.recipe-section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.burger-recipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.description {
+    background-color: #eef0f4;
+    font-weight: bold;
+}
+
+.directions {
+    width: 50%;
+}
+.ingredients {
     width: 40%;
+}
+
+.burger-recipe li {
+    font-size: .85rem;
 }
 
 footer {
