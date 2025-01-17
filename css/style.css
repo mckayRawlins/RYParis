@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 }
 
 html {
@@ -20,6 +20,10 @@ header, footer {
 
 .logo {
     height: 5rem;
+}
+
+.checked {
+    color: #a63223;
 }
 
 a {
@@ -54,12 +58,19 @@ div.hero > h2 {
     object-fit: cover;
 }
 
-.categories-images, .healthy-recipes-images, .where-to-images, header, footer{
+.categories-images, .healthy-recipes-images, .where-to-images, .prep-info, header, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
+
+.burger-recipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 
 header, footer {
     padding-left: 5rem;
@@ -114,6 +125,10 @@ section h1, section p {
 
 .images3 {
     border: 6.5px solid #dadfea;
+}
+
+.directions, .ingredients {
+    width: 40%;
 }
 
 footer {
